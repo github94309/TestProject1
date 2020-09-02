@@ -44,7 +44,7 @@ public class BookController
 	}
 	
 	//DELETE
-	@RequestMapping(value="/books", method = RequestMethod.DELETE)
+	@RequestMapping(value="/books/{id}", method = RequestMethod.DELETE)
 	public void deleteBook(int id)
 	{
 		bookService.deleteBook(id);

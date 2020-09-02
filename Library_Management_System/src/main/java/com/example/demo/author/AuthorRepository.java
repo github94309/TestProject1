@@ -1,10 +1,13 @@
-package com.example.demo.book;
+package com.example.demo.author;
+
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+
 @Repository
-public interface BookRepository extends CrudRepository<Book, Integer> 
+public interface AuthorRepository extends CrudRepository<Author, Integer>
 {
 
 }
+
